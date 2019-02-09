@@ -3,12 +3,11 @@
   "version": "0.0.1",
   "description": "React State Controller from scratch.",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "dev": "pm2 start ./lib/server.js --watch --interpreter babel-node",
-    "webpack": "webpack -wd"
+    "dev": "nodemon ./lib/server.js --exec babel-node",
+    "webpack": "webpack -wd",
+    "test": "jest --watch",
+    "get-mockup-data": "wget -O lib/testData.json bit.ly/react-blog-test-data"
   },
   "babel": {
     "presets": [
@@ -33,10 +32,13 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.13.0",
     "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.1.0",
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
+    "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.3.0",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
@@ -44,9 +46,10 @@
     "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
-    "pm2": "^3.2.9",
+    "nodemon": "^1.18.10",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "react-test-renderer": "^16.8.1",
     "webpack": "^4.29.3"
   }
 }
