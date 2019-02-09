@@ -4,7 +4,7 @@
   "description": "React State Controller from scratch.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon ./lib/server.js --exec babel-node",
+    "dev": "NODE_PATH=./lib nodemon ./lib/server.js --exec babel-node",
     "webpack": "webpack -wd",
     "test": "jest --watch",
     "get-mockup-data": "wget -O lib/testData.json bit.ly/react-blog-test-data"

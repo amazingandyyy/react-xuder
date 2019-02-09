@@ -31,6 +31,12 @@ React State Controller from scratch.
 
 -4. add `bable-pollyfill` for `async/await` features
 
+### Concepts
+
+1. SSR is good for client's slow CPU
+2. add `NODE_PATH` for easier importing path
+3. 
+
 ### Helpful commands
 
 ```command
