@@ -31,11 +31,18 @@ React State Controller from scratch.
 
 -4. add `bable-pollyfill` for `async/await` features
 
+## Server-Side Rendering(SSR)
+
+1. fetch data in the server
+2. passing data to server generated DOM as a global object
+3. DOM use the window.initialData in client side
+
 ### Concepts
 
 1. SSR is good for client's slow CPU
-2. add `NODE_PATH` for easier importing path
-3. 
+2. Using absolute importing path
+- add `NODE_PATH` in the node
+- add `resolve:modules` in webpack
 
 ### Helpful commands
 
