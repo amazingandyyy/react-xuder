@@ -19,7 +19,9 @@ exports[`ArticleList renders correctly 1`] = `
           "fontWeight": "bold",
         }
       }
-    />
+    >
+      title a
+    </div>
     <div
       style={
         Object {
@@ -67,7 +69,9 @@ exports[`ArticleList renders correctly 1`] = `
           "fontWeight": "bold",
         }
       }
-    />
+    >
+      title b
+    </div>
     <div
       style={
         Object {
