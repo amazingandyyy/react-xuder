@@ -39,8 +39,9 @@ React State Controller from scratch.
 
 ## Context API
 
-1. getChildContext + PropTypes
-2. getChildContext() return value will be the context object
+1. getChildContext + PropTypes in the parent component
+2. getChildContext() return value will be the context object in the parent component
+3. declare what object we want to have access in the child component
 
 ### Concepts
 

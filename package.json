@@ -46,6 +46,8 @@
     "babel-loader": "^8.0.5",
     "babel-polyfill": "^6.26.0",
     "ejs": "^2.6.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
     "express": "^4.16.4",
     "nodemon": "^1.18.10",
     "prop-types": "^15.6.2",
