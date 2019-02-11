@@ -37,6 +37,11 @@ React State Controller from scratch.
 2. passing data to server generated DOM as a global object
 3. DOM use the window.initialData in client side
 
+## Context API
+
+1. getChildContext + PropTypes
+2. getChildContext() return value will be the context object
+
 ### Concepts
 
 1. SSR is good for client's slow CPU
